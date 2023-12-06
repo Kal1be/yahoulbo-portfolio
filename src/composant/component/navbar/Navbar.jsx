@@ -19,10 +19,10 @@ function Navbar() {
         transition={{duration:2}}
         whileInView={{opacity:1,scale:1,x:0}}
         >
-           <a href="#"><img src="/facebook.png" alt="" /></a>
-           <a href="#"><img src="/instagram.png" alt="" /></a>
-           <a href="#"><img src="/youtube.png" alt="" /></a>
-           <a href="#"><img src="/dribbble.png" alt="" /></a>
+           <a href="#"><img src="/yahoulbo-portfolio/facebook.png" alt="" /></a>
+           <a href="#"><img src="/yahoulbo-portfolio/instagram.png" alt="" /></a>
+           <a href="#"><img src="/yahoulbo-portfolio/youtube.png" alt="" /></a>
+           <a href="#"><img src="/yahoulbo-portfolio/dribbble.png" alt="" /></a>
         </motion.div>
      </div>
     </div>
