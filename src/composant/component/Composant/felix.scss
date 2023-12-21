@@ -1,0 +1,45 @@
+#animate{
+   
+    img{
+        animation: animate 2.5s linear infinite;
+        position:relative;
+        width: 10% !important;
+        height: 10% !important;
+    }
+    @keyframes animate {
+        0%{
+          bottom: -2rem;
+        }
+        50%{
+          bottom: -3rem;
+          opacity: 0;
+        }
+        100%{
+          bottom: -2rem;
+        }
+    }
+}
+
+@media(max-width:756px){
+    #animate{
+   
+        img{
+            animation: animate 2.5s linear infinite;
+            position:relative;
+            width: 20% !important;
+            height: 20% !important;
+        }
+        @keyframes animate {
+            0%{
+              bottom:.4rem;
+            }
+            50%{
+              bottom:2rem;
+              opacity: 0;
+            }
+            100%{
+              bottom:.4rem;
+            }
+        }
+    } 
+}
