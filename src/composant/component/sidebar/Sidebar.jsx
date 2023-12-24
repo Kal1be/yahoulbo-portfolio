@@ -4,26 +4,27 @@ import Links from "./togglebtn/Links"
 import Togglebtn from './togglebtn/Togglebtn'
 import { motion } from 'framer-motion'
 
-const variants ={
-  open:{
-    clipPath:"circle(1200px at 80px)",
-    transition:{
-        type:"spring",
-        stiffness:20,
-        
-    }
-  },
-  close:{
-clipPath:"circle(25px at 50px 50px) ",
-transition:{
-delay:0.5,
-type:"spring",
-stiffness:"400",
-damping:40
-}
-  } 
-}
+
 function Sidebar() {
+  const variants ={
+    open:{
+      clipPath:"circle(1200px at 80px)",
+      transition:{
+          type:"spring",
+          stiffness:20,
+          
+      }
+    },
+    close:{
+  clipPath:"circle(25px at 50px 50px) ",
+  transition:{
+  delay:0.5,
+  type:"spring",
+  stiffness:"400",
+  damping:40
+  }
+    } 
+  }
     const [open,setOpen] = useState(false)
     
   return (
