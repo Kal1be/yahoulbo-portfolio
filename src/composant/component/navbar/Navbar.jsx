@@ -10,7 +10,7 @@ function Navbar() {
      <Sidebar/>
      <div className="wrapper">
         <motion.span
-         >Yahoulbo Felix</motion.span>
+         ><b>Yahoulbo</b> Felix</motion.span>
         <motion.div className="social"
         >
            <a href="#"><img src="/yahoulbo-portfolio/facebook.png" alt="" /></a>

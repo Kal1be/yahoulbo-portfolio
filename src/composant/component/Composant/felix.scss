@@ -20,6 +20,19 @@
     }
 }
 
+.slidingTextContainer{
+  position: absolute;
+  font-size:50vh ;
+  bottom: -120px;
+  left: 0;
+  white-space:nowrap;
+  // word-wrap: break-word;
+  color: #ffffff09;
+  overflow: hidden !important;
+  width: 100%;
+  font-weight: bold;
+}
+
 @media(max-width:756px){
     #animate{
    
@@ -42,4 +55,16 @@
             }
         }
     } 
+    .slidingTextContainer{
+      position: absolute;
+      font-size:30vh ;
+      bottom: 20%;
+      left: 0;
+      // white-space:nowrap;
+      // word-wrap: break-word;
+      color: #ffffff09;
+      overflow: hidden !important;
+      width: 100%;
+    }
+    
 }
