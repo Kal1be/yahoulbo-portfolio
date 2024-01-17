@@ -1,97 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Hedvig+Letters+Serif:opsz@12..24&family=Heebo:wght@500&family=Indie+Flower&family=Kalnia:wght@600&family=Lato:wght@300;400&family=Montserrat+Alternates:ital@1&family=Rubik+Scribble&display=swap');
 
-
-html{
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
-    scroll-margin: ceil($number: 5);
-}
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family:"DM Sans",sans-serif ;
-}
 
 body{
-    background:linear-gradient(180deg,#111132,#0c0c1d);
-    color: lightgray;
-  
-}
-a{
-    text-decoration: none;
-    color: inherit;
-}
-#Services{
-    height: 100vh ;
-}
-#about{
-    height: 100% !important;
-}
-#PortFolio{
-    height: 100vh;
-}
-section{
-  
-    
-.felix{
-text-align: center;
-font-weight: bold;
-font-size: 40px;
-// font-family: 'Times New Roman', Times, serif;
-
-// color: ghostwhite;
-// span{
-//     color: rgb(142, 17, 3);
-// }
-}
-.aboutfelix{
+    flex: 1;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 70px;
-    padding-left: 50px;
-    padding-right: 50px;
-
-    img{
-        width:28%;
-        height:26%;
-        border-radius: 50% 0 50% 50%;
-    }
-}
+    justify-content: center;
+    background-color: rgb(1, 28, 45);
+    padding: 13px 0;
 }
 
-@media(max-width:850px){
-    #Services{
-        height: 50vh ;
+#myborder{
+    border: 2px solid rgb(49, 215, 115);
+}
+#network{
+    p{
+        border: 1px solid transparent;
     }
-    #about{
-        height: 100% !important;
+    p:hover{
+        border: 1px solid rgb(49, 117, 226);
     }
-    #PortFolio{
-        height: 50vh;
-    }
-    section{
-        .felix{
-            font-size: 25px;
-            // font-family: 'Times New Roman', Times, serif;
-        }
-        .aboutfelix{
-            display: block;
-            padding-left: 20px;
-            padding-right: 20px;
-             padding-top: 20px;
-  
+}
 
-            img{
-                width: 100%;
-                height: 100%;
-                margin-top: 20px;
-                border-radius:0 60% ;
-            }
-        }
-    }
+#element:hover{
+border: 1px solid rgb(49, 117, 226);
 }
 

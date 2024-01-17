@@ -1,0 +1,49 @@
+.wrapper{
+    width: 700px;
+    background-color:#0e4465a0 ;
+    padding: 10px 15px;
+    color: white;
+}
+.wrap{
+    width: 700px;
+    padding: 10px 15px;
+}
+
+#felix{
+    border-left: 2px solid #e80b24 ;
+    padding: 2px 5px;
+    border-top: 2px solid #e80b24;
+    color:#e80b24 ;
+}
+
+@media(min-width:756px){
+    .my-btn{
+        display: none;
+    }
+    #open{
+        font-family: 'Times New Roman', Times, serif;
+    }
+  
+    .phone{
+        display: none;
+    }
+}
+
+@media(max-width:756px){
+    .wrapper{
+        width: 100vw;
+        padding: 8px 15px;
+        color: white;
+    } 
+    #open{
+        display: none;
+    }
+
+    .wrap{
+        width: 100vw;
+        padding: 8px 15px;
+    }
+    .laptop{
+        display: none;
+    }
+}

@@ -1,30 +1,25 @@
-import Test from './Test';
+// import Test from './Test';
 import './app.scss'
-import Felix from './composant/component/Composant/Felix';
-import MySkills from './composant/component/Composant/MySkills';
-import Navbar from './composant/component/navbar/Navbar';
-import Parallax from './composant/component/parallax/parallax';
-import Service from './composant/component/Composant/sefrvices/Service';
+import Body from './component/Body';
+import Body1 from './component/Body1';
+import Build from './component/Build';
+import Footer from './footer/Footer';
+import Navbar from './navbar/Navbar';
+
 const App = () => {
   return( 
    <div>
-    <section id='Homepage'>
-      <Navbar/>
-     <Felix/>
-      </section>
-      <section id='Services'>
-     <Parallax type="services"/>
-    </section>
-    <section id='About'>
-      <Service/>
-    </section>
-    <section id='PortFolio'> 
-     <Parallax type="portfolio"/>
-    </section>
-    <section>Portfolio2</section>
-   
-    <section id='Project'>Project</section>
-    <section id='Contact'>contact</section>
+   <Navbar/>
+   <div className='wrap '>
+  <div className='laptop'>
+  <Body/>
+  </div>
+  <div className='phone'>
+    <Body1/>
+  </div>
+  <Build/>
+  <Footer/>
+   </div>
    </div>
   )
 };
