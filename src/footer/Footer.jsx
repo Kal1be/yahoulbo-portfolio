@@ -13,7 +13,7 @@ function Footer() {
     <div className="text-white lg:flex my-6">
     <div>
         <h2 className="text-xl font-bold">About me</h2>
-        <h3 className="text-gray-400 pe-12 py-3">I'm Yahoulbo, a <b>front-end developer</b> who loves intuitive, clean and modern UI design.</h3>
+        <h3 className="text-gray-400 pe-16 py-3 ">I'm Yahoulbo, a <b>front-end developer</b> who loves intuitive, clean and modern UI design.</h3>
     </div>
     <div className="flex">
         <div className="me-6">
@@ -24,11 +24,11 @@ function Footer() {
      <h3>Our Service</h3>
         </div>
         <div className="ms-6">
-     <h3>Home</h3>
-     <h3>Home</h3>
-     <h3>Home</h3>
-     <h3>Home</h3>
-     <h3>Home</h3>
+     <h3>About</h3>
+     <h3>Blog</h3>
+     <h3>Contact</h3>
+     <h3>Email me</h3>
+     <h3>Whatsapp</h3>
         </div>
     </div>
 

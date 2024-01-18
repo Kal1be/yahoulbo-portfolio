@@ -1,6 +1,6 @@
 function Body1() {
     return (
-      <div className="lg:flex justify-between relative mt-36 items-center">
+      <div className="lg:flex justify-between relative mt-32 items-center">
        <div>
           <img src="/yahoulbo-portfolio/devsoftware.jpg" className="lg:w-56 lg:h-36 h-48 w-48 my-8 lg:mt-0 object-contains rounded-full"/>
         </div>
