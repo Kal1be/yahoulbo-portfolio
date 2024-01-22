@@ -76,7 +76,7 @@ function Build() {
        </div>
        <div className='border lg:w-[65%] lg:ms-2 lg:mt-0 mt-4'  id='element'>
        <motion.img 
-      drag={true} src='/yahoulbo-portfolio/tou.png' className='h-[35vh] w-full'/>
+      src='/yahoulbo-portfolio/tou.png' className='h-[35vh] w-full'/>
        <h4 className='text-xl font-medium text-gray-300 px-1 my-3'>Janvier 2024</h4>
        <p className='text-xl my-2 text-white px-1'>TchadCommerce.com is the e-commerce online create to help our customer to ask some price of the product that the need to get and buy directly online .</p>
        </div>
