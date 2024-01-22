@@ -3,6 +3,7 @@ import Home from './Home';
 import './app.scss'
 import Navbar from './navbar/Navbar';
 import {useState,useEffect} from "react"
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
 const App = () => {
   const [isloaded,setIsloaded]=useState(false);
@@ -21,10 +22,13 @@ const App = () => {
      )
   }
   return( 
-   <div>
-   <Navbar/>
-  <Home/>
-   </div>
+   <BrowserRouter>
+      <Navbar/>
+   <Routes>
+  <Route path='/yahoulbo-portfolio/' base element={<Home/>}/>
+   </Routes>
+  
+   </BrowserRouter>
   )
 };
 

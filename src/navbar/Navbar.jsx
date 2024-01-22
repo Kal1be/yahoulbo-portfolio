@@ -2,6 +2,7 @@ import "./navbar.scss"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars, faClose } from "@fortawesome/free-solid-svg-icons"
 import { useState } from "react"
+import { Link } from "react-router-dom"
 function Navbar() {
   const [open,setOpen]=useState(false)
   return (
@@ -12,10 +13,10 @@ function Navbar() {
       </div>
       <div>
         <ul className="md:flex justify-between text-xl" id={open?"open":"close"}>
-        <FontAwesomeIcon icon={faClose} className="absolute right-4 bg-white p-2 text-[#0e4465]" onClick={()=>{
+        <FontAwesomeIcon icon={faClose} className="absolute right-4 bg-white rounded-xl  p-2 text-[#0e4465]" onClick={()=>{
           setOpen(!open)
         }} id="toclo"/>
-            <li  className="mx-3">Home</li>
+            <li  className="mx-3" onClick={()=>setOpen(!open)}><Link to="/yahoulbo-portfolio/">Home</Link></li>
             <li  className="mx-3">About</li>
             <li  className="mx-3">Blog</li>
             <li  className="mx-3">Service</li>
@@ -24,7 +25,7 @@ function Navbar() {
         </ul>
         <h4 className="my-btn text-2xl" onClick={()=>{
           setOpen(!open)
-        }}><FontAwesomeIcon icon={faBars}/></h4>
+        }}><FontAwesomeIcon icon={faBars} /></h4>
       </div>
     </div>
    </div>
