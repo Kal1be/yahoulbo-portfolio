@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faBootstrap, faGithub, faLinkedinIn, faMdb, faNodeJs, faReact, faXTwitter } from '@fortawesome/free-brands-svg-icons'
 import {  faArrowRight, faMailBulk} from '@fortawesome/free-solid-svg-icons'
 import "./build.scss"
+import {motion} from "framer-motion"
 function Build() {
   return (
     <div className='lg:mt-20 mt-10'>
@@ -13,10 +14,10 @@ function Build() {
       </div>
       {/* _++++++++++++++++++++ the social media that we use _++++++++++++++++++++++++++++++++++++++++= */}
       <div className='flex my-3 text-white' id='network'>
-        <p className='bg-[#0e4465a0] me-3 py-1 px-1 cursor-pointer rounded-lg font-medium'><FontAwesomeIcon icon={faGithub} className='px-2'/>Github</p>
-        <p className='bg-[#0e4465a0] mx-1 lg:mx-2 py-1 px-1 cursor-pointer rounded-lg font-medium'><FontAwesomeIcon icon={faXTwitter} className='px-2'/>Twitter</p>
-        <p className='bg-[#0e4465a0] mx-1 lg:mx-2 py-1 px-1 cursor-pointer rounded-lg font-medium'><FontAwesomeIcon icon={faLinkedinIn} className='px-2'/>LinkedinIn</p>
-        <p className='bg-[#0e4465a0] mx-1 lg:mx-2 py-1 px-1 cursor-pointer rounded-lg font-medium'><FontAwesomeIcon icon={faMailBulk} className='px-2'/>Email</p>
+        <p className='bg-[#0e4465a0] me-3 py-1 px-1 cursor-pointer rounded-lg font-medium'><a href='https://github.com/kal1be'><FontAwesomeIcon icon={faGithub} className='px-2'/>Github</a></p>
+        <p className='bg-[#0e4465a0] mx-1 lg:mx-2 py-1 px-1 cursor-pointer rounded-lg font-medium'><a href='https://xtwiter.com/kalibe'><FontAwesomeIcon icon={faXTwitter} className='px-2'/>Twitter</a></p>
+        <p className='bg-[#0e4465a0] mx-1 lg:mx-2 py-1 px-1 cursor-pointer rounded-lg font-medium'><a href='https://www.linkedin.com/in/kalibe'><FontAwesomeIcon icon={faLinkedinIn} className='px-2'/>LinkedinIn</a></p>
+        <p className='bg-[#0e4465a0] mx-1 lg:mx-2 py-1 px-1 cursor-pointer rounded-lg font-medium'><a href='https://www.gmail.com/in/yahoulbo'><FontAwesomeIcon icon={faMailBulk} className='px-2'/>Email</a></p>
       </div>
       {/* _+++++++++++++++++++ the current skills that we working _++++++++++++++++++++++ */}
       <div className='my-20'>
@@ -34,21 +35,31 @@ function Build() {
       <div className='my-20'>
       <h2 className='text-2xl font-bold text-white'>Our latest blog</h2>
       <div>
-        <div className='rounded-lg py-3 px-2 bg-[#0e4465a0] my-6'>
+        <motion.div
+        initial={{opacity:0,x:-100}}
+        transition={{duration:1}}
+        whileInView={{opacity:1,x:0}}
+         className='rounded-lg py-3 px-2 bg-[#0e4465a0] my-6'>
             <h3 className='text-2xl font-medium text-white'>Built a school website name <span className='text-[#e80b24]'>universite de Toukra</span></h3>
             <h4 className='text-xl font-medium text-gray-300 my-3'>Septembre 2023</h4>
             <p className='text-xl text-gray-300'>We create a university website who help the foreign to know about the university !</p>
-        </div>
-        <div className='rounded-lg py-3 px-2 bg-[#0e4465a0] my-6'>
+        </motion.div>
+        <motion.div
+        initial={{opacity:0,x:-100}}
+        transition={{duration:1}}
+        whileInView={{opacity:1,x:0}} className='rounded-lg py-3 px-2 bg-[#0e4465a0] my-6'>
             <h3 className='text-2xl font-medium text-white'> Build a Web documentation named <span className='text-[#e80b24]'>WebDocs</span></h3>
             <h4 className='text-xl font-medium text-gray-300 my-3'>october 2023</h4>
             <p className='text-xl text-gray-300'>the website was create to help the beginner to get some knowledge with html,css and javascript.</p>
-        </div>
-        <div className='rounded-lg py-3 px-2 bg-[#0e4465a0] my-6'>
+        </motion.div>
+        <motion.div
+        initial={{opacity:0,x:-100}}
+        transition={{duration:1}}
+        whileInView={{opacity:1,x:0}} className='rounded-lg py-3 px-2 bg-[#0e4465a0] my-6'>
             <h3 className='text-2xl font-medium text-white'>Built a chess <span className='text-[#e80b24]'>game</span></h3>
             <h4 className='text-xl font-medium text-gray-300 my-3'>november 2023</h4>
             <p className='text-xl text-gray-300'>the game was create to demonstrate my level with javascript and is playing on our .navigator</p>
-        </div>
+        </motion.div>
       </div>
         <h2 className='text-xl text-white'>Read more <FontAwesomeIcon icon={faArrowRight} className='mt-2'/></h2>
       </div>
@@ -64,7 +75,8 @@ function Build() {
  to know more about the university and know about their program.</p>
        </div>
        <div className='border lg:w-[65%] lg:ms-2 lg:mt-0 mt-4'  id='element'>
-       <img src='/yahoulbo-portfolio/tou.png' className='h-[35vh]'/>
+       <motion.img 
+      drag={true} src='/yahoulbo-portfolio/tou.png' className='h-[35vh] w-full'/>
        <h4 className='text-xl font-medium text-gray-300 px-1 my-3'>Janvier 2024</h4>
        <p className='text-xl my-2 text-white px-1'>TchadCommerce.com is the e-commerce online create to help our customer to ask some price of the product that the need to get and buy directly online .</p>
        </div>

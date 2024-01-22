@@ -1,8 +1,10 @@
+import { motion } from "framer-motion"
 function Body1() {
     return (
       <div className="lg:flex justify-between relative mt-32 items-center">
        <div>
-          <img src="/yahoulbo-portfolio/devsoftware.jpg" className="lg:w-56 lg:h-36 h-48 w-48 my-8 lg:mt-0 object-contains rounded-full"/>
+          <motion.img
+ src="/yahoulbo-portfolio/devsoftware.jpg" className="lg:w-56 lg:h-36 h-48 w-48 my-8 lg:mt-0 object-contains rounded-full"/>
         </div>
   <div>
       <h2 className="font-bold text-2xl text-white my-1">Yahoulbo</h2>
