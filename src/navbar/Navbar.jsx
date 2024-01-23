@@ -1,6 +1,6 @@
 import "./navbar.scss"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBars, faClose } from "@fortawesome/free-solid-svg-icons"
+import { faArrowCircleRight, faBars, faChevronRight, faClose } from "@fortawesome/free-solid-svg-icons"
 import { useState } from "react"
 import { Link } from "react-router-dom"
 function Navbar() {
@@ -17,10 +17,10 @@ function Navbar() {
           setOpen(!open)
         }} id="toclo"/>
             <li  className="mx-3" onClick={()=>setOpen(!open)}><Link to="/yahoulbo-portfolio/">Home</Link></li>
-            <li  className="mx-3">About</li>
-            <li  className="mx-3">Blog</li>
-            <li  className="mx-3">Service</li>
-            <li  className="mx-3">Contact</li>
+            <li  className="mx-3">About <FontAwesomeIcon icon={faChevronRight} className="text-sm" id="icon-none"/></li>
+            <li  className="mx-3">Blog <FontAwesomeIcon icon={faChevronRight} className="text-sm" id="icon-none"/></li>
+            <li  className="mx-3">Service<FontAwesomeIcon icon={faChevronRight} className="text-sm" id="icon-none"/></li>
+            <li  className="mx-3">Contact<FontAwesomeIcon icon={faChevronRight} className="text-sm" id="icon-none"/></li>
 
         </ul>
         <h4 className="my-btn text-2xl" onClick={()=>{

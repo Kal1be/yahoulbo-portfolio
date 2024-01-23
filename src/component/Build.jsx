@@ -67,6 +67,7 @@ function Build() {
       <hr/>
       <div className='my-20'>
       <h2 className='text-2xl font-bold text-white'>Latest project</h2>
+      {/* _++++++++++++++++++ the first latest project_++++++++++++++++++++++++++++ */}
       <div className='lg:flex mt-10'>
        <div className='border lg:w-[65%] lg:me-2' id='element'>
 <img src='/yahoulbo-portfolio/toukra1.png' className='h-[35vh] w-full'/>
@@ -79,6 +80,21 @@ function Build() {
       src='/yahoulbo-portfolio/tou.png' className='h-[35vh] w-full'/>
        <h4 className='text-xl font-medium text-gray-300 px-1 my-3'>Janvier 2024</h4>
        <p className='text-xl my-2 text-white px-1'>TchadCommerce.com is the e-commerce online create to help our customer to ask some price of the product that the need to get and buy directly online .</p>
+       </div>
+      </div>
+      {/* +____________________=++++++++++++++++++++ the second latest project+_______________________________+++++++++++++++++ */}
+
+      <div className='lg:flex mt-10'>
+       <div className='border lg:w-[65%] lg:me-2' id='element'>
+<img src='/yahoulbo-portfolio/e-com.png' className='h-[35vh] w-full'/>
+<h4 className='text-xl font-medium text-gray-300 my-3 px-1'>Janvier 2024</h4>
+<p className='text-xl my-2 text-white px-1'>Leader business is created for one of my customer in Chad for selling couch and others product</p>
+       </div>
+       <div className='border lg:w-[65%] lg:ms-2 lg:mt-0 mt-4'  id='element'>
+       <motion.img 
+      src='/yahoulbo-portfolio/webdocs.png' className='h-[35vh] w-full'/>
+       <h4 className='text-xl font-medium text-gray-300 px-1 my-3'>septembre 2023</h4>
+       <p className='text-xl my-2 text-white px-1'>WebDocs is created to teach the beginner some knowledge with some language like javascript,css,python,etc...</p>
        </div>
       </div>
       <h2 className='text-xl my-8 text-white'>View more <FontAwesomeIcon icon={faArrowRight} className='mt-2'/></h2>
