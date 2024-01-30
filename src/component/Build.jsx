@@ -16,8 +16,8 @@ function Build() {
       <div className='flex my-3 text-white' id='network'>
         <p className='bg-[#0e4465a0] me-3 py-1 px-1 cursor-pointer rounded-lg font-medium'><a href='https://github.com/kal1be'><FontAwesomeIcon icon={faGithub} className='px-2'/>Github</a></p>
         <p className='bg-[#0e4465a0] mx-1 lg:mx-2 py-1 px-1 cursor-pointer rounded-lg font-medium'><a href='https://xtwiter.com/kalibe'><FontAwesomeIcon icon={faXTwitter} className='px-2'/>Twitter</a></p>
-        <p className='bg-[#0e4465a0] mx-1 lg:mx-2 py-1 px-1 cursor-pointer rounded-lg font-medium'><a href='https://www.linkedin.com/in/kalibe'><FontAwesomeIcon icon={faLinkedinIn} className='px-2'/>LinkedinIn</a></p>
-        <p className='bg-[#0e4465a0] mx-1 lg:mx-2 py-1 px-1 cursor-pointer rounded-lg font-medium'><a href='https://www.gmail.com/in/yahoulbo'><FontAwesomeIcon icon={faMailBulk} className='px-2'/>Email</a></p>
+        <p className='bg-[#0e4465a0] mx-1 lg:mx-2 py-1 px-1 cursor-pointer rounded-lg font-medium'><a href='https://www.linkedin.com/in/kalibe-felix-38aa2a294'><FontAwesomeIcon icon={faLinkedinIn} className='px-2'/>LinkedinIn</a></p>
+        <p className='bg-[#0e4465a0] mx-1 lg:mx-2 py-1 px-1 cursor-pointer rounded-lg font-medium'><a href='https://gmail.com/yahoulbofelix@gmail.com'><FontAwesomeIcon icon={faMailBulk} className='px-2'/>Email</a></p>
       </div>
       {/* _+++++++++++++++++++ the current skills that we working _++++++++++++++++++++++ */}
       <div className='my-20'>

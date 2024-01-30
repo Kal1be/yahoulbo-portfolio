@@ -15,10 +15,10 @@ whileInView={{opacity:1,y:0}}>
 </motion.div>
   <div>
         <motion.img
-        initial={{opacity:0,y:-20,scale:.9}}
-transition={{duration:1}}
-whileInView={{opacity:1,y:0}}
-whileHover={{scale:1}}
+//         initial={{opacity:0,y:-20,scale:.9}}
+// transition={{duration:1}}
+// whileInView={{opacity:1,y:0}}
+// whileHover={{scale:1}}
  src="/yahoulbo-portfolio/devsoftware.jpg" className="lg:w-72 lg:h-36 h-44 w-44 mt-8 lg:mt-0 object-contains rounded-full"/>
       </div>
      
