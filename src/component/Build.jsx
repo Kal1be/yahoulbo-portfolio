@@ -56,9 +56,9 @@ function Build() {
         initial={{opacity:0,x:-100}}
         transition={{duration:1}}
         whileInView={{opacity:1,x:0}} className='rounded-lg py-3 px-2 bg-[#0e4465a0] my-6'>
-            <h3 className='text-2xl font-medium text-white'>Built a chess <span className='text-[#e80b24]'>game</span></h3>
+            <h3 className='text-2xl font-medium text-white'>Built a<span className='text-[#e80b24]'>AnasDev</span> Institute</h3>
             <h4 className='text-xl font-medium text-gray-300 my-3'>november 2023</h4>
-            <p className='text-xl text-gray-300'>the game was create to demonstrate my level with javascript and is playing on our .navigator</p>
+            <p className='text-xl text-gray-300'>The website is created to teach user with programming and data analyst course and certified with it.</p>
         </motion.div>
       </div>
         <h2 className='text-xl text-white'>Read more <FontAwesomeIcon icon={faArrowRight} className='mt-2'/></h2>
@@ -86,9 +86,9 @@ function Build() {
 
       <div className='lg:flex mt-10'>
        <div className='border lg:w-[65%] lg:me-2' id='element'>
-<img src='/yahoulbo-portfolio/e-com.png' className='h-[35vh] w-full'/>
+<img src='/yahoulbo-portfolio/anasdev.png' className='h-[35vh] w-full'/>
 <h4 className='text-xl font-medium text-gray-300 my-3 px-1'>Janvier 2024</h4>
-<p className='text-xl my-2 text-white px-1'>Leader business is created for one of my customer in Chad for selling couch and others product</p>
+<p className='text-xl my-2 text-white px-1'>AnasDev is created to teach technologie course and some others features and get certified after learn some course .</p>
        </div>
        <div className='border lg:w-[65%] lg:ms-2 lg:mt-0 mt-4'  id='element'>
        <motion.img 
