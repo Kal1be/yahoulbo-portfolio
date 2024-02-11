@@ -13,7 +13,7 @@ function Navbar() {
       </div>
       <div>
         <ul className="md:flex justify-between text-xl" id={open?"open":"close"}>
-        <FontAwesomeIcon icon={faClose} className="absolute right-4 bg-white rounded-xl  p-2 text-[#0e4465]" onClick={()=>{
+        <FontAwesomeIcon icon={faClose} className="absolute right-4 bg-white p-2 text-[#0e4465]" onClick={()=>{
           setOpen(!open)
         }} id="toclo"/>
             <li  className="mx-3" onClick={()=>setOpen(!open)}><Link to="/yahoulbo-portfolio/">Home</Link></li>
