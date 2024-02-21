@@ -1,6 +1,7 @@
 import { faGithub, faLinkedin, faSpotify, faWhatsapp, faXTwitter } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 function Footer() {
+  const date = new Date().getFullYear()
   return (
     <div>
     <div className="bg-black py-2 px-2 rounded-xl flex items-center" id="myborder">
@@ -35,7 +36,7 @@ function Footer() {
     </div>
     <hr/>
     <div className="flex justify-between items-center my-6 text-white">
-        <p>&copy; Devsoftware,2024 jan</p>
+        <p>&copy;Devsoftware <span>Yahoulbo</span> {date}</p>
         <div className="w-32 flex justify-between text-xl">
             <FontAwesomeIcon icon={faWhatsapp}/>
             <FontAwesomeIcon icon={faGithub}/>
