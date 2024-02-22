@@ -1,5 +1,6 @@
 import { faGithub, faLinkedin, faSpotify, faWhatsapp, faXTwitter } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { Link } from "react-router-dom"
 function Footer() {
   const date = new Date().getFullYear()
   return (
@@ -36,12 +37,12 @@ function Footer() {
     </div>
     <hr/>
     <div className="flex justify-between items-center my-6 text-white">
-        <p>&copy;Devsoftware <span>Yahoulbo</span> {date}</p>
-        <div className="w-32 flex justify-between text-xl">
-            <FontAwesomeIcon icon={faWhatsapp}/>
-            <FontAwesomeIcon icon={faGithub}/>
-            <FontAwesomeIcon icon={faXTwitter}/>
-            <FontAwesomeIcon icon={faLinkedin}/>
+        <p>&copy;Devsoftware <span className="text-[#e80b24]">Yahoulbo</span> {date}</p>
+        <div className="flex gap-3 justify-between text-xl">
+          <Link>  <FontAwesomeIcon icon={faWhatsapp}/></Link>
+            <Link to="https://github.com/kal1be"><FontAwesomeIcon icon={faGithub}/></Link>
+           <Link> <FontAwesomeIcon icon={faXTwitter}/></Link>
+          <Link>  <FontAwesomeIcon icon={faLinkedin}/></Link>
         </div>
     </div>
       

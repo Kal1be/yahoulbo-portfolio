@@ -15,8 +15,8 @@ function Home() {
     <Body1/>
   </div>
   <Build/>
-  <Footer/>
   <Scroll/>
+  <Footer/>
    </div>
     </div>
   )

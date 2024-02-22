@@ -10,7 +10,7 @@ whileInView={{opacity:1,y:0}}>
     <h2 className="font-bold text-3xl text-white my-1">Yahoulbo</h2>
     <p className="text-xl font-medium text-gray-500">Solo developper kinda student</p>
     <p className="lg:pe-12 text-gray-500 text-xl my-3 font-medium">Learning about web and trying to help out other devs in the process.
-     I love open source and writing about tech occasionally.
+     I love open source and writing about tech is one of my best passion.
 </p>
 </motion.div>
   <div>

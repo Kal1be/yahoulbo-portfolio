@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faBootstrap, faGithub, faLinkedinIn, faMdb, faNodeJs, faReact, faXTwitter } from '@fortawesome/free-brands-svg-icons'
 import {  faArrowRight, faMailBulk} from '@fortawesome/free-solid-svg-icons'
 import "./build.scss"
+import { Link } from 'react-router-dom'
 import {motion} from "framer-motion"
 function Build() {
   return (
@@ -67,35 +68,40 @@ function Build() {
       <hr/>
       <div className='my-20'>
       <h2 className='text-2xl font-bold text-white'>Latest project</h2>
+      <p className='text-white text-xl my-2'>Click on these picture to enter the website .</p>
       {/* _++++++++++++++++++ the first latest project_++++++++++++++++++++++++++++ */}
       <div className='lg:flex mt-10'>
-       <div className='border lg:w-[65%] lg:me-2' id='element'>
+       <Link className='lg:w-[65%]' to="https://kal1be.github.io/toukra-project">
+       <div className='border  lg:me-2' id='element'>
 <img src='/yahoulbo-portfolio/toukra1.png' className='h-[35vh] w-full'/>
 <h4 className='text-xl font-medium text-gray-300 my-3 px-1'>Septembre 2023</h4>
 <p className='text-xl my-2 text-white px-1'>the university website was created in the objectif to help the foreign
  to know more about the university and know about their program.</p>
-       </div>
-       <div className='border lg:w-[65%] lg:ms-2 lg:mt-0 mt-4'  id='element'>
+       </div></Link>
+     <Link className='lg:w-[65%]' to="https://kal1be.github.io/business-plan">
+     <div className='border  lg:ms-2 lg:mt-0 mt-4'  id='element'>
        <motion.img 
       src='/yahoulbo-portfolio/tou.png' className='h-[35vh] w-full'/>
        <h4 className='text-xl font-medium text-gray-300 px-1 my-3'>Janvier 2024</h4>
        <p className='text-xl my-2 text-white px-1'>TchadCommerce.com is the e-commerce online create to help our customer to ask some price of the product that the need to get and buy directly online .</p>
-       </div>
+       </div></Link>
       </div>
       {/* +____________________=++++++++++++++++++++ the second latest project+_______________________________+++++++++++++++++ */}
 
       <div className='lg:flex mt-10'>
-       <div className='border lg:w-[65%] lg:me-2' id='element'>
+      <Link className='lg:w-[65%]' to="https://anasdev-school.vercel.app">
+      <div className='border  lg:me-2' id='element'>
 <img src='/yahoulbo-portfolio/anasdev.png' className='h-[35vh] w-full'/>
 <h4 className='text-xl font-medium text-gray-300 my-3 px-1'>Janvier 2024</h4>
 <p className='text-xl my-2 text-white px-1'>AnasDev is created to teach technologie course and some others features and get certified after learn some course .</p>
-       </div>
-       <div className='border lg:w-[65%] lg:ms-2 lg:mt-0 mt-4'  id='element'>
+       </div></Link>
+      <Link className='lg:w-[65%]'>
+      <div className='border  lg:ms-2 lg:mt-0 mt-4'  id='element'>
        <motion.img 
       src='/yahoulbo-portfolio/webdocs.png' className='h-[35vh] w-full'/>
        <h4 className='text-xl font-medium text-gray-300 px-1 my-3'>septembre 2023</h4>
        <p className='text-xl my-2 text-white px-1'>WebDocs is created to teach the beginner some knowledge with some language like javascript,css,python,etc...</p>
-       </div>
+       </div></Link>
       </div>
       <h2 className='text-xl my-8 text-white'>View more <FontAwesomeIcon icon={faArrowRight} className='mt-2'/></h2>
       </div>
