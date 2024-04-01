@@ -5,7 +5,7 @@ import './app.scss'
 import Navbar from './navbar/Navbar';
 import {useState,useEffect} from "react"
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
-import Footer from './footer/Footer';
+// import Footer from './footer/Footer';
 import Contact from './contact/Contact';
 import Blog from './blog/Blog';
 import Service from './service/Service';
