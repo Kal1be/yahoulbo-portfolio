@@ -4,7 +4,7 @@ function Body1() {
       <div className="lg:flex justify-between relative mt-32 items-center">
        <div>
           <motion.img
- src="/yahoulbo-portfolio/FelixDev.png" className="lg:w-56 lg:h-36 h-48 w-48 my-8 lg:mt-0 object-contains rounded-full"/>
+ src="/yahoulbo-portfolio/FelixDev.png" className="lg:w-56 lg:h-36 h-48 w-48 my-8 lg:mt-0"/>
         </div>
   <div>
       <h2 className="font-bold text-2xl text-white my-1">Yahoulbo</h2>
