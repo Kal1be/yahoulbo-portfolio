@@ -1,25 +1,25 @@
 import { motion } from "framer-motion"
 function Body() {
   return (
-    <div className="lg:flex justify-between relative mt-40 items-center">
+    <div className="lg:flex w-full justify-between relative mt-40 items-center">
    
-<motion.div
+<motion.div className="w-[690px]"
 initial={{opacity:0,y:20}}
 transition={{duration:1}}
 whileInView={{opacity:1,y:0}}>
-    <h2 className="font-bold text-3xl text-white my-1">Yahoulbo</h2>
-    <p className="text-xl font-medium text-gray-500">Solo developper kinda student</p>
-    <p className="lg:pe-12 text-gray-500 text-xl my-3 font-medium">Learning about web and trying to help out other devs in the process.
-     I love open source and writing about tech is one of my best passion.
+    <h2 className="font-bold text-3xl text-white my-1">Yahoulbo Felix</h2>
+    <p className="text-xl font-medium text-gray-500">Frontend Developer</p>
+    <p className="lg:pe-12 text-gray-500 text-xl my-3 font-medium">
+      Highly motivated and passionate computer scientist and detail-oriented frontend Developer with a strong track record of creating responsive and user-friedly web applications.Proficient in a wide range of technologies including React.js,TypeScript, Node.js and MongoDb with expertise in high scalability  using Next.js for efficient problem-solving abilities and a deep understand of software developpment principles. 
 </p>
 </motion.div>
-  <div>
-        <motion.img
+  <div className="">
+        <motion.img 
 //         initial={{opacity:0,y:-20,scale:.9}}
 // transition={{duration:1}}
 // whileInView={{opacity:1,y:0}}
 // whileHover={{scale:1}}
- src="/yahoulbo-portfolio/FelixDev.png" className="lg:w-72 lg:h-36 h-44 w-44 mt-8 lg:mt-0"/>
+ src="/yahoulbo-portfolio/FelixDev.png" className=" h-full w-full mt-8 lg:mt-0"/>
       </div>
      
     </div>

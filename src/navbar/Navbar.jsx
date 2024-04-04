@@ -1,6 +1,6 @@
 import "./navbar.scss"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faArrowCircleRight, faBars, faChevronRight, faClose } from "@fortawesome/free-solid-svg-icons"
+import {  faBars, faChevronRight, faClose } from "@fortawesome/free-solid-svg-icons"
 import { useState } from "react"
 import { Link } from "react-router-dom"
 function Navbar() {
@@ -23,10 +23,8 @@ function Navbar() {
             }}><Link to="/yahoulbo-portfolio/about">About</Link> <FontAwesomeIcon icon={faChevronRight} className="text-sm" id="icon-none"/></li>
             <li  className="" onClick={()=>{
               setOpen(!open)
-            }}><Link to="/yahoulbo-porfolio/blog">Blog </Link><FontAwesomeIcon icon={faChevronRight} className="text-sm" id="icon-none"/></li>
-            <li  className="" onClick={()=>{
-              setOpen(!open)
-            }}><Link to="/yahoulbo-porfolio/contact">Contact</Link><FontAwesomeIcon icon={faChevronRight} className="text-sm" id="icon-none"/></li>
+            }}>
+              <Link to="/yahoulbo-porfolio/contact">Contact</Link><FontAwesomeIcon icon={faChevronRight} className="text-sm" id="icon-none"/></li>
             <li  className="" onClick={()=>{
               setOpen(!open)
             }}><Link to="/yahoulbo-porfolio/service">Service</Link><FontAwesomeIcon icon={faChevronRight} className="text-sm" id="icon-none"/></li>
