@@ -19,14 +19,12 @@ function About() {
     <p>As a developper,i'm currently seeking for an internship opportunity to further enhance skills in 
       HTML,CSS3,JavaScript,TypeScript,Node.js and MongoDb while gained practical experience in a professional environment!</p>
 </div>
-<h3 className='text-lg opacity-75 mt-4 mb-3'>Download my CV here!</h3>
-    <h3 className='text-xl font-bold opacity-75 text-[#e80b24]'>Some of my project</h3>
-    <p>As a developper,i'm working right now in Telesoftas Company and the way this company going
-         excite me to bring the skills and expertise i have gained to put to the way!</p>
 </div>
-<h3 className='text-2xl opacity-75 mt-4 mb-3'>Download my CV here!</h3>
+<div className='px-3'>
+<h3 className='text-2xl opacity-75 mt-4 mb-3 text-gray-200'>Download my CV here!</h3>
 
-<button className='bg-[#0e4465a0] border rounded-xl py-2 px-3 my-2'>Download CV</button>
+<button className='bg-[#0e4465a0] border rounded-xl text-gray-400 py-2 px-3 my-2'>Download CV</button>
+</div>
 <div className='mt-4'>
 <Footer/>
 </div>
