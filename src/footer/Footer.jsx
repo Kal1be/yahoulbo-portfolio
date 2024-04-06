@@ -8,7 +8,6 @@ function Footer() {
     <div className="bg-black py-2 px-2 rounded-xl flex items-center" id="myborder">
     <FontAwesomeIcon icon={faSpotify} className="text-green-500 text-3xl"/>
     <div className="text-white mx-3 ">
-<<<<<<< HEAD
     <h2>Am listening</h2>
     <span className="text-gray-400 ">Spotify-plus++</span>
     </div>
@@ -18,7 +17,7 @@ function Footer() {
         <h2 className="text-xl font-bold">About me</h2>
         <h3 className="text-gray-400 pe-16 py-3 ">I`m Yahoulbo, a <b>front-end developer</b> who loves intuitive, clean and modern UI design.</h3>
     </div>
-    <div className="md:flex">
+    <div className="md:flex justify-around w-full items-center">
         <div className="me-6">
      <h3 className="text-lg font-medium">Check who i am ?</h3>
      <h3>Accessibility</h3>
@@ -31,40 +30,13 @@ function Footer() {
      <h3>Blog</h3>
      <h3>Contact</h3>
      <h3>Email me</h3>
-=======
-    <h2>Not listening</h2>
-    <span className="text-gray-400 ">Spotify-</span>
     </div>
     </div>
-    <div className="text-white lg:flex my-6">
-    <div>
-        <h2 className="text-xl font-bold">About me</h2>
-        <h3 className="text-gray-400 pe-16 py-3 ">I`m Yahoulbo, a <b>front-end developer</b> who loves intuitive, clean and modern UI design.</h3>
-    </div>
-    <div className="flex">
-        <div className="me-6">
-     <h3>Home</h3>
-     <h3>Accessibility</h3>
-     <h3>My Blog</h3>
-     <h3>My Project</h3>
-     <h3>Our Service</h3>
-        </div>
-        <div className="ms-6">
-     <h3>About</h3>
-     <h3>Blog</h3>
-     <h3>Contact</h3>
-     <h3>Email me</h3>
-     <h3>Whatsapp</h3>
->>>>>>> 487160f1f3bb0381bd7a91437a666d60b348900d
-        </div>
-    </div>
-
-    </div>
-<<<<<<< HEAD
-    <hr className="borde my-3"/>
-=======
+   
+   
+      </div>
+      <hr className="borde my-3"/>
     <hr/>
->>>>>>> 487160f1f3bb0381bd7a91437a666d60b348900d
     <div className="flex justify-between items-center my-6 text-white">
         <p>&copy;Devsoftware <span className="text-[#e80b24]">Yahoulbo</span> {date}</p>
         <div className="flex gap-3 justify-between text-xl">
@@ -74,7 +46,6 @@ function Footer() {
           <Link>  <FontAwesomeIcon icon={faLinkedin}/></Link>
         </div>
     </div>
-      
     </div>
   )
 }

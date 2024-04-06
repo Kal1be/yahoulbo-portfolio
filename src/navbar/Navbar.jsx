@@ -10,17 +10,17 @@ function Navbar() {
     <div className="fixed z-50 top-3 shadow-xl">
      <div className="wrapper flex justify-between items-center rounded-2xl">
       <div className="">
-<<<<<<< HEAD
+
         <h2 className=" font-bold text-xl" id="felix">Yahoulbo Felix</h2>
       </div>
-      <div>
-        <ul className="md:flex gap-16 justify-between text-lg" id={open?"open":"close"}>
-=======
+      {/* <div> */}
+        {/* <ul className="md:flex gap-16 justify-between text-lg" id={open?"open":"close"}>
+
         <h2 className=" font-bold text-xl" id="felix">Yahoulbo</h2>
-      </div>
+      </div> */}
       <div>
         <ul className="md:flex gap-8 justify-between text-xl" id={open?"open":"close"}>
->>>>>>> 487160f1f3bb0381bd7a91437a666d60b348900d
+
         <FontAwesomeIcon icon={faClose} className="absolute right-4 bg-white p-2 text-[#0e4465]" onClick={()=>{
           setOpen(!open)
         }} id="toclo"/>
@@ -34,20 +34,18 @@ function Navbar() {
               <Link to="/yahoulbo-porfolio/contact">Contact</Link><FontAwesomeIcon icon={faChevronRight} className="text-sm" id="icon-none"/></li>
             <li  className="" onClick={()=>{
               setOpen(!open)
-<<<<<<< HEAD
+
             }}><Link to="/yahoulbo-porfolio/service">Services</Link><FontAwesomeIcon icon={faChevronRight} className="text-sm" id="icon-none"/></li>
-=======
-            }}><Link to="/yahoulbo-porfolio/service">Service</Link><FontAwesomeIcon icon={faChevronRight} className="text-sm" id="icon-none"/></li>
->>>>>>> 487160f1f3bb0381bd7a91437a666d60b348900d
+{/* <li><Link to="/yahoulbo-porfolio/service">Service</Link><FontAwesomeIcon icon={faChevronRight} className="text-sm" id="icon-none"/></li> */}
+
 
         </ul>
         <h4 className="my-btn text-2xl" onClick={()=>{
           setOpen(!open)
-<<<<<<< HEAD
+
         }}><FontAwesomeIcon icon={faBars}/></h4>
-=======
-        }}><FontAwesomeIcon icon={faBars} /></h4>
->>>>>>> 487160f1f3bb0381bd7a91437a666d60b348900d
+{/* <h4><FontAwesomeIcon icon={faBars} /></h4> */}
+
       </div>
     </div>
    </div>
