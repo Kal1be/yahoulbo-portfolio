@@ -47,8 +47,8 @@
        width: 100%;
        background-color: #0e4465;
       padding: 20px 0;
-      top: -12px;
-      transition: .33s linear ;
+      top:0;
+      transition: .2s linear ;
       height: 1000vh;
       max-height: 100vh;
       bottom: 0;
@@ -56,8 +56,8 @@
     #close{
      height: 0vh;
       position: absolute;
-   scale: .4;
-   left: -100%;
+   scale: 0;
+   top: -100%;
     }
 
     #open li{

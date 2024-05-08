@@ -3,10 +3,10 @@
 }
 
 .my-image{
- border: 1px solid gray;
-    border-radius: 60% 4% 50% 0;
+  filter:drop-shadow(10px 7px 20px #e80b24);
 }
 
 .my-p{
-  line-height: 8rem;  
+  line-height: 40px !important;  
 }
+

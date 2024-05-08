@@ -19,7 +19,7 @@ function Navbar() {
         <h2 className=" font-bold text-xl" id="felix">Yahoulbo</h2>
       </div> */}
       <div>
-        <ul className="md:flex gap-8 justify-between text-xl" id={open?"open":"close"}>
+        <ul className="md:flex gap-16 justify-between text-xl" id={open?"open":"close"}>
 
         <FontAwesomeIcon icon={faClose} className="absolute right-4 bg-white p-2 text-[#0e4465]" onClick={()=>{
           setOpen(!open)

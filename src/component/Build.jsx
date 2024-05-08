@@ -12,7 +12,7 @@ function Build() {
         <p>I&apos;m <span className='text-[#e80b24]'>Yahoulbo Felix</span>, a 20-year-old student belonging to the Ahmadu Bello University.
          I&apos;m a enthusiast Programer,and software developer specialize 
          in Frontend Development,writing computer program is one 
-         of my best passion,and solving real world problem and  </p>
+         of my best passion,and solving real world problem.</p>
       </div>
       {/* _++++++++++++++++++++ the social media that we use _++++++++++++++++++++++++++++++++++++++++= */}
       <div className='flex my-3 text-white' id='network'>
@@ -45,7 +45,7 @@ function Build() {
 
             <h3 className='text-2xl font-medium text-white capitalize'>Built a school website name <span className='text-[#e80b24]'>universite de Toukra</span></h3>
 
-            <h4 className='text-xl font-medium text-gray-300 my-3'>Septembre 2023</h4>
+            <h4 className='text-md text-gray-300 my-3'>Septembre 2023</h4>
             <p className='text-xl text-gray-300'>We create a university website who help the foreign to know about the university !</p>
         </motion.div>
         <motion.div
@@ -55,7 +55,7 @@ function Build() {
         whileInView={{opacity:1,x:0}}
          className='rounded-lg py-3 px-2 bg-[#0e4465a0] my-6'>
             <h3 className='text-2xl font-medium text-white capitalize'>Real world problem solver website<span className='text-[#e80b24]'> Distance Learning blog</span></h3>
-            <h4 className='text-xl font-medium text-gray-300 my-3'>April 2024</h4>
+            <h4 className='text-md text-gray-300 my-3'>April 2024</h4>
             <p className='text-xl text-gray-300'>Developed a platform to address real-world issues, enabling students and faculty members to create and share diverse content, including blogs. The platform boasts 150 active users and facilitates interactive engagement through commenting functionalities. Leveraged technologies such as React, MongoDB,
              Express, and Node.js for robust development and implemented enhanced authentication mechanisms for improved security.</p>
         </motion.div>
@@ -69,7 +69,7 @@ function Build() {
             <h3 className='text-2xl font-medium text-white capitalize'> Build a Web documentation named <span className='text-[#e80b24]'>WebDocs</span></h3>
 
         {/* whileInView={{opacity:1,x:0}} className='rounded-lg py-3 px-2 bg-[#0e4465a0] my-6'> */}
-            <h4 className='text-xl font-medium text-gray-300 my-3'>october 2023</h4>
+            <h4 className='text-md text-gray-300 my-3'>october 2023</h4>
             <p className='text-xl text-gray-300'>the website was create to help the beginner to get some knowledge with html,css and javascript.</p>
         </motion.div>
         <motion.div
@@ -77,7 +77,8 @@ function Build() {
         transition={{duration:1}}
         whileInView={{opacity:1,x:0}} className='rounded-lg py-3 px-2 bg-[#0e4465a0] my-6'>
 
-<h3 className='text-2xl font-medium text-white capitalized'>Built a<span className='text-[#e80b24]'>AnasDev</span> Institute</h3>            <h4 className='text-xl font-medium text-gray-300 my-3'>november 2023</h4>
+<h3 className='text-2xl font-medium text-white capitalized'>Built a <span className='text-[#e80b24]'>AnasDev</span> Institute</h3>      
+      <h4 className='text-md  text-gray-300 my-3'>November 2023</h4>
             <p className='text-xl text-gray-300'>The website is created to teach user with programming and data analyst course and certified with it.</p>
         </motion.div>
       </div>
@@ -96,32 +97,32 @@ function Build() {
 <img src='/yahoulbo-portfolio/toukra1.png' className='h-[35vh] w-full'/>
 <h4 className='text-lg font-sans text-gray-300 my-3 px-1'>Septembre 2023</h4>
 <p className='text-xl my-2 text-white px-1'>The university website was created in the objectif to help the foreign
- to know more about the university and know about their program and discuss with school personal.</p>
+ to know more about the university and know about their program and discuss with the school stuff for more about their service.</p>
        </div></Link>
-     <Link className='lg:w-[65%]' to="https://distance-learning-blog.onrender.com">
+       <Link className='lg:w-[65%]' to="https://kal1be.github.io/devtechnology">
+
+<div className='border p-4  lg:me-2' id='element'>
+<img src='/yahoulbo-portfolio/devtech.png' className='h-[35vh] w-full'/>
+<h4 className='text-lg font-sans text-gray-300 my-3 px-1'>March 2024</h4>
+<p className='text-xl my-2 text-white px-1'>DevTechnology is one of my company build for creating cutting-edge service web,networking,LMS platform,E-Commerce and since created and stabilish in 2018,we have almost 300 users in two different country .</p>
+</div></Link>
+   
+      </div>
+      {/* +____________________=++++++++++++++++++++ the second latest project+_______________________________+++++++++++++++++ */}
+      <div className='lg:flex mt-10'>
+      <Link className='lg:w-[65%]' to="https://distance-learning-blog.onrender.com">
      <div className='border p-4  lg:ms-2 lg:mt-0 mt-4'  id='element'>
        <motion.img 
       src='/yahoulbo-portfolio/distance.png' className='h-[35vh] w-full'/>
        <h4 className='text-lg font-sans text-gray-300 px-1 my-3'>Mars 2024</h4>
        <p className='text-xl my-2 text-white px-1'>Distance Learning blog is a plateform to address real-world issues,enabling students and members of faculty to create and share diverse including blogs.</p>
        </div></Link>
-      </div>
-      {/* +____________________=++++++++++++++++++++ the second latest project+_______________________________+++++++++++++++++ */}
-      <div className='lg:flex mt-10'>
-       <Link className='lg:w-[65%]' to="https://kal1be.github.io/toukra-project">
-
-       <div className='border p-4  lg:me-2' id='element'>
-<img src='/yahoulbo-portfolio/anasdev.png' className='h-[35vh] w-full'/>
-<h4 className='text-lg font-sans text-gray-300 my-3 px-1'>Septembre 2023</h4>
-<p className='text-xl my-2 text-white px-1'>The university website was created in the objectif to help the foreign
- to know more about the university and know about their program and discuss with school personal.</p>
-       </div></Link>
-     <Link className='lg:w-[65%]' to="https://distance-learning-blog.onrender.com">
+     <Link className='lg:w-[65%]' to="https://learn-online-course.onrender.com/">
      <div className='border p-4  lg:ms-2 lg:mt-0 mt-4'  id='element'>
        <motion.img 
       src='/yahoulbo-portfolio/webdocs.png' className='h-[35vh] w-full'/>
-       <h4 className='text-lg font-sans text-gray-300 px-1 my-3'>Mars 2024</h4>
-       <p className='text-xl my-2 text-white px-1'>Distance Learning blog is a plateform to address real-world issues,enabling students and members of faculty to create and share diverse including blogs.</p>
+       <h4 className='text-lg font-sans text-gray-300 px-1 my-3'>september 2024</h4>
+       <p className='text-xl my-2 text-white px-1'>WebDocs is an online platform  build for teaching basics of programing such as HTML,CSS3,JavaScript ! and the new version of the software will out !</p>
        </div></Link>
       </div>
     

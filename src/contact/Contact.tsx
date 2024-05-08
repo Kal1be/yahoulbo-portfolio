@@ -8,7 +8,6 @@ function Contact() {
   return (
     <div className='wrap mt-24'>
         <h3 className='md:text-2xl text-xl font-medium font-sans text-white opacity-75'>Leave me a feedback and let's work together!</h3>
-        <h3 className='md:text-2xl text-xl font-bold text-white opacity-75'>Leave me a feedback and let's work together!</h3>
         <form onSubmit={handleSubmit}>
             <div className='w-full md:flex gap-12 text-white my-6 '>
                 <div className='md:w-[360px]'>
